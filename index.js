@@ -111,10 +111,10 @@ switch (browser) {
 }
 
 // break, continue 사용하여 even number 출력하기
-for (i=0, i<11, i++) {
+for(i=0; i<11; i++) {
     if (i%2===0) {
        continue; 
     }
     console.log(`answer: ${i}`);
-}
+};
 
