@@ -1,0 +1,22 @@
+.container {
+    margin: 100px auto;
+    width: 200px;
+  }
+input, textarea {
+    width: 100%;
+    font-size: 13px;
+  margin-bottom: 5px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  }
+  textarea {
+    resize: none;
+  }
+
+  input::placeholder {
+    color: #bbb;
+  }
+
+  input[type="text"]::placeholder {
+    color: red;
+  } 
